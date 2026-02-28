@@ -1,0 +1,46 @@
+{
+  "name": "electron-macos-notification",
+  "version": "0.1.2",
+  "description": "Native macOS notification support for Electron with contentImage attachment via UNUserNotificationCenter",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "os": ["darwin"],
+  "files": [
+    "index.js",
+    "index.d.ts",
+    "binding.gyp",
+    "src/"
+  ],
+  "keywords": [
+    "electron",
+    "macos",
+    "notification",
+    "native",
+    "UNUserNotificationCenter",
+    "contentImage"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xxxxxccc/electron-macos-notification.git"
+  },
+  "homepage": "https://github.com/xxxxxccc/electron-macos-notification#readme",
+  "bugs": {
+    "url": "https://github.com/xxxxxccc/electron-macos-notification/issues"
+  },
+  "author": "xxxxxccc",
+  "license": "MIT",
+  "scripts": {
+    "build": "node-gyp rebuild",
+    "clean": "node-gyp clean"
+  },
+  "dependencies": {
+    "bindings": "^1.5.0",
+    "node-addon-api": "^8.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "*"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}

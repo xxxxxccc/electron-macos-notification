@@ -1,0 +1,27 @@
+# Dependencies
+node_modules/
+
+# Build output
+build/
+bin/
+
+# Logs
+*.log
+
+# macOS
+.DS_Store
+._*
+
+# IDE
+.idea/
+.vscode/
+.cursor/
+*.swp
+*.swo
+
+# Environment
+.env
+.env.*
+
+# npm / pnpm
+*.tgz
